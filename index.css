@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-section{
+    display: flex;
+     width: 90%; 
+    /* margin: 0 5px; */
+}
+.cloumn1{
+    width: 100%;
+    text-align: center;
+   height: 100vh;
+   padding:0 5px;
+    background-image: url(./images/dark-ribs.jpg);
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+.heading-top{
+    border-top: 4px solid #f19118;
+    color: #f19118;
+
+}
+.heading-center{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.learn-heading{
+    /* display: flex; */
+    color: #fff;
+    font-weight: 400;
+    /* font-size: 3.5rem; */
+}
+span{
+    font-weight: 700;
+    
+}
+.join-heading{
+    color: #f19118;
+}
+input{
+    
+    display: block;
+    margin: 0 auto;
+    padding: .4em 1em;
+    
+    border-radius: .2em;
+
+}
+.text-input{
+    margin-bottom: .7em;
+}
+.center-div{
+   width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.column2{
+    text-align: center;
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+}
+.register-heading{
+    color: #f19118;
+    margin-bottom: .3em;
+
+}
+button{
+    margin-top: 1em;
+    font-size: 1.2rem;
+    background: linear-gradient(to left, #ff713b, #ffa51d);
+    padding: .3em 2.1em;
+    border: none;
+    border-radius: .2em;
+    color:rgba(255, 255, 255, .7);
+    cursor: pointer;
+}
+p{
+    margin-top: .7em;
+    font-size: .825rem;
+}
+@media (max-width: 680px) {
+.main-section{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}    
+.cloumn1{
+    max-width: 100vw;
+    width: 100%;
+    /* margin-right: 0; */
+    height: 47%;
+}
+
+}
